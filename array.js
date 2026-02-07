@@ -33,3 +33,7 @@ updateTodo(editingId);
 
 
 displayTodo();
+
+
+let filtered = todoList.filter((todo) => todo.id !==2);
+console.log(filtered);
